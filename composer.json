@@ -1,0 +1,18 @@
+{
+    "name": "ramy.hakam/design-patterns-course",
+    "description": "code examples for design patterns in php corurse",
+    "authors": [
+        {
+            "name": "Ramy hakam",
+            "email": "pencilsoft1@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Creational\\": "Creational"
+        }
+    }
+}
