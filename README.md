@@ -7,3 +7,8 @@ Code examples for design patterns in php course
 
   - Every type of design patterns grouped in a dirctory with type name 
   - Test directory for all code tests
+
+# Installation
+
+`composer install`
+`vendor/bin/phpunit Tests`
