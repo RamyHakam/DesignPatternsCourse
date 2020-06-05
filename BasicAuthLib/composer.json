@@ -1,0 +1,17 @@
+{
+    "name": "ramy.hakam/basic-auth-lib",
+    "description": "test lib for adapter",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ramy hakam",
+            "email": "pencilsoft1@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BasicAuth\\": "BasicAuth"
+        }
+    }
+}

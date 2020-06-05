@@ -8,12 +8,24 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "7.3"
+        "phpunit/phpunit": "7.3",
+        "ramy.hakam/basic-auth-lib": "*@dev",
+        "ramy.hakam/token-auth-lib": "*@dev"
     },
     "autoload": {
         "psr-4": {
             "Creational\\": "Creational",
             "Structural\\": "Structural"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "BasicAuthLib"
+        },
+        {
+            "type": "path",
+            "url": "TokenAuthLib"
+        }
+    ]
 }

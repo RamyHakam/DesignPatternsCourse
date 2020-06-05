@@ -1,0 +1,17 @@
+{
+    "name": "ramy.hakam/token-auth-lib",
+    "description": "test lib for adpater",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ramy hakam",
+            "email": "pencilsoft1@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TokenAuth\\": "TokenAuth"
+        }
+    }
+}
