@@ -2,9 +2,10 @@
 
 namespace Tests;
 
+use PHPUnit\Framework\TestCase;
 use \Structural\FluentBuilder\QueryBuilder;
 
-class FluentBuilderTest extends \PHPUnit\Framework\TestCase
+class FluentBuilderTest extends TestCase
 {
     public function testCanGetSQLFromQueryBuilder()
     {

@@ -15,7 +15,8 @@
     "autoload": {
         "psr-4": {
             "Creational\\": "Creational",
-            "Structural\\": "Structural"
+            "Structural\\": "Structural",
+            "Tests\\": "Tests"
         }
     },
     "repositories": [
