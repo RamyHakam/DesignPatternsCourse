@@ -1,14 +1,15 @@
 # Design Patterns in PHP course
 
 
-Code examples for design patterns in php course 
+Complete code examples for  all the design patterns in php course By Ramy Hakam
 
 # How code is organized!
 
-  - Every type of design patterns grouped in a dirctory with type name 
-  - Test directory for all code tests
+  - Every type of the design patterns  is grouped in a dirctory with the type name 
+  - The Test directory for all the code tests
 
 # Installation
 
 `composer install`
+
 `vendor/bin/phpunit Tests`
