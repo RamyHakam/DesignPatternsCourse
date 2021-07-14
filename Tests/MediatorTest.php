@@ -16,7 +16,7 @@ class MediatorTest extends TestCase
     private $leftRoad;
     private $rightRoad;
 
-    protected function setUp()
+    protected function setUp() :void
     {
         $this->leftRoad = new LeftRoad();
         $this->rightRoad = new RightRoad();

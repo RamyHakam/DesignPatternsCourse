@@ -27,5 +27,4 @@ class AbstractFactoryTest extends  TestCase
 
         $this->assertInstanceOf(BenzCar::class ,$myCar);
     }
-
 }

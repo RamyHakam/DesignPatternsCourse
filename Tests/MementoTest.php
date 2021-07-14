@@ -12,7 +12,7 @@ class MementoTest extends TestCase
 {
     private $originator;
     private $careTaker;
-    protected function setUp()
+    protected function setUp() :void
     {
         $this->originator = new Originator();
         $this->careTaker = new CareTaker($this->originator);

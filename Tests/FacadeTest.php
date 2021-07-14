@@ -11,7 +11,7 @@ use Structural\Facade\ConverterLib\Photo;
 class FacadeTest extends  TestCase
 {
     private $facade;
-    protected function setUp()
+    protected function setUp() :void
     {
         $this->facade = new ConverterFacade();
 

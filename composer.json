@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "7.3",
+        "phpunit/phpunit": "8.5.8",
         "ramy.hakam/basic-auth-lib": "*@dev",
         "ramy.hakam/token-auth-lib": "*@dev"
     },
@@ -17,9 +17,15 @@
             "Creational\\": "Creational",
             "Structural\\": "Structural",
             "Behavioral\\": "Behavioral",
-            "Tests\\": "Tests"
         }
     },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+
     "repositories": [
         {
             "type": "path",

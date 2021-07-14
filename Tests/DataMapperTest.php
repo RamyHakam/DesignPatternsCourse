@@ -13,7 +13,7 @@ class DataMapperTest extends TestCase
 {
     private StorageManager $manager;
     private  array $data;
-    protected function setUp()
+    protected function setUp() :void
     {
         $this->data = [1 => ['userName'=>'admin','password' => '123']];
         $this->manager = new StorageManager($this->data);

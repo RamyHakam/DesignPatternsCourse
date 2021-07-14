@@ -52,7 +52,7 @@ class CommandTest extends TestCase
 
     }
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->invocker = new CLIInvoker();
 

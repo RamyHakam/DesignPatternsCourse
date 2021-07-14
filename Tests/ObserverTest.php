@@ -15,7 +15,7 @@ class ObserverTest extends TestCase
     private $waiter;
     private $kitchen;
     private $casher;
-    protected function setUp()
+    protected function setUp() :void
     {
         $this->restaurant = new Restaurant();
         $this->waiter = new Waiter();
