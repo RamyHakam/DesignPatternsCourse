@@ -37,7 +37,7 @@ class StrategyTest extends TestCase
 
     public function testCanUseBase64Encrypt()
     {
-      //  $this->encryptContext->setStrategy(new Base64Encrypt());
+        $this->encryptContext->setStrategy(new Base64Encrypt());
         [$data,$type] = $this->encryptContext->encryptString(self::TEXT);
         self::assertNotEquals($this->encryptedData,$data);
         self::assertEquals(Base64Encrypt::TYPE,$type);
