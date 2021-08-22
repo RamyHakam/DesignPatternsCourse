@@ -38,5 +38,6 @@
             "type": "path",
             "url": "TokenAuthLib"
         }
-    ]
+    ],
+    "license": ["MIT"]
 }
