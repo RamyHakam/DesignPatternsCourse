@@ -25,7 +25,9 @@
             "Tests\\": "tests/"
         }
     },
-
+    "scripts": {
+        "test" : "vendor/bin/phpunit"
+    },
     "repositories": [
         {
             "type": "path",
