@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "8.5.8",
+        "phpunit/phpunit": "^8.5.8",
         "ramy.hakam/basic-auth-lib": "dev-master",
         "ramy.hakam/token-auth-lib": "dev-master"
     },
